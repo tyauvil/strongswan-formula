@@ -1,0 +1,10 @@
+strongswan:
+  tunnels:
+    aws_us_west_2_tun_1:
+      right: '1.2.3.4'
+      psk: 'PnQySKPLEgGJkpFTfQb5x3bd4rmmfxsd'
+      inside_ip: '169.254.99.146'
+      outside_ip: '169.254.99.145'
+      remote_subnet: '10.7.0.0/16'
+      vti_name: 'vti0'
+      key: '101'

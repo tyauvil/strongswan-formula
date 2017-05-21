@@ -1,0 +1,4 @@
+name: strongswan
+deps:
+  bird:
+    git: git@github.com:tyauvil/bird-formula.git
